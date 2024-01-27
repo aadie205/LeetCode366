@@ -39,7 +39,8 @@ public class Day15_LC75_SortColors {
 
 	public static void main(String[] args) {
 
-		int[] arr = { 2, 0, 2, 1, 1, 0 };
+//		int[] arr = { 2, 0, 2, 1, 1, 0 };
+		int[] arr = { 2, 0, 1,2,1,0,0,2, 1, 1, 0 };
 //		int[] arr = { 2, 0, 2 };
 
 		new Day15_LC75_SortColors().new Solution().sortColors(arr);
